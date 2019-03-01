@@ -60,7 +60,7 @@ $ /usr/bin/kcarectl --update
 To check current kernel compatibility with KernelCare, use the following [script](https://kernelcare.com/checker) by running:
 
 ```
-curl -s https://kernelcare.com/checker | python
+curl -L -s https://kernelcare.com/checker | python
 ```
 
 or:
